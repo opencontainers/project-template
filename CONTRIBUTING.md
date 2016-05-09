@@ -10,10 +10,9 @@ If your pull request is not accepted on the first try, don't be
 discouraged! If there's a problem with the implementation, hopefully you
 received feedback on what to improve.
 
-We're trying very hard to keep runc lean and focused. We don't want it
+We're trying very hard to keep the project lean and focused. We don't want it
 to do everything for everybody. This means that we might decide against
-incorporating a new feature. However, there might be a way to implement
-that feature *on top of* runc.
+incorporating a new feature.
 
 
 ### Conventions

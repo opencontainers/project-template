@@ -1,7 +1,7 @@
 ## Introduction
 
 Dear maintainer. Thank you for investing the time and energy to help
-make runc as useful as possible. Maintaining a project is difficult,
+make this project as useful as possible. Maintaining a project is difficult,
 sometimes unrewarding work.  Sure, you will get to contribute cool
 features to the project. But most of your time will be spent reviewing,
 cleaning up, documenting, answering questions, justifying design
@@ -31,9 +31,9 @@ It is every maintainer's responsibility to:
 
 ## How are decisions made?
 
-Short answer: with pull requests to the runc repository.
+Short answer: with pull requests to the project repository.
 
-runc is an open-source project with an open design philosophy. This
+This project is an open-source project with an open design philosophy. This
 means that the repository is the source of truth for EVERY aspect of the
 project, including its philosophy, design, roadmap and APIs. *If it's
 part of the project, it's in the repo. It's in the repo, it's part of
@@ -44,7 +44,7 @@ repository. An implementation change is a change to the source code. An
 API change is a change to the API specification. A philosophy change is
 a change to the philosophy manifesto. And so on.
 
-All decisions affecting runc, big and small, follow the same 3 steps:
+All decisions affecting this project, big and small, follow the same 3 steps:
 
 * Step 1: Open a pull request. Anyone can do this.
 
@@ -76,7 +76,8 @@ role of a Chief Maintainer comes into play.
 The Chief Maintainer for the project is responsible for overall architecture 
 of the project to maintain conceptual integrity.  Large decisions and 
 architecture changes should be reviewed by the chief maintainer.  
-The current chief maintainer for the project is Michael Crosby (@crosbymichael).  
+The current chief maintainer for the project is the first person listed 
+in the MAINTAINERS file.  
 
 Even though the maintainer system is built on trust, if there is a conflict
 with the chief maintainer on a decision, their decision can be challenged 
