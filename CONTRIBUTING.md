@@ -37,9 +37,6 @@ Write clean code. Universally formatted code promotes ease of writing, reading,
 and maintenance. Always run `gofmt -s -w file.go` on each changed file before
 committing your changes. Most editors have plugins that do this automatically.
 
-Pull requests descriptions should be as clear as possible and include a
-reference to all the issues that they address.
-
 Pull requests must not contain commits from other users or branches.
 
 Commit messages must start with a capitalized and short summary (max. 50
