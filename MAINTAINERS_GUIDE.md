@@ -31,8 +31,6 @@ It is every maintainer's responsibility to:
 
 ## How are decisions made?
 
-Short answer: with pull requests to the project repository.
-
 This project is an open-source project with an open design philosophy. This
 means that the repository is the source of truth for EVERY aspect of the
 project, including its philosophy, design, roadmap and APIs. *If it's
@@ -44,14 +42,19 @@ repository. An implementation change is a change to the source code. An
 API change is a change to the API specification. A philosophy change is
 a change to the philosophy manifesto. And so on.
 
-All decisions affecting this project, big and small, follow the same 3 steps:
+All decisions affecting this project, big and small, follow the same procedure:
 
-* Step 1: Open a pull request. Anyone can do this.
-
-* Step 2: Discuss the pull request. Anyone can do this.
-
-* Step 3: Accept (`LGTM`) or refuse a pull request. The relevant maintainers do
-this (see below "Who decides what?")
+1. Discuss a proposal on the [mailing list](CONTRIBUTING.md#mailing-list).
+   Anyone can do this.
+2. Open a pull request.
+   Anyone can do this.
+3. Discuss the pull request.
+   Anyone can do this.
+4. Endorse (`LGTM`) or oppose (`Rejected`) the pull request.
+   The relevant maintainers do this (see below [Who decides what?](#who-decides-what)).
+   Changes that affect project management (changing policy, cutting releases, etc.) are [proposed and voted on the mailing list](GOVERNANCE.md).
+5. Merge or close the pull request.
+   The relevant maintainers do this.
 
 ### I'm a maintainer, should I make pull requests too?
 
