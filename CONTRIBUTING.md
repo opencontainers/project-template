@@ -1,4 +1,6 @@
-## Contribution Guidelines
+# Contribution Guidelines
+
+## Git
 
 ### Security issues
 
