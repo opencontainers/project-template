@@ -107,13 +107,7 @@ conflict resolution rules expressed above apply.  The voting period is
 five business days on the Pull Request to add the new maintainer.
 
 
-### What is expected of maintainers?
-
-Part of a healthy project is to have active maintainers to support the community
-in contributions and perform tasks to keep the project running.  Maintainers are
-expected to be able to respond in a timely manner if their help is required on specific
-issues where they are pinged.  Being a maintainer is a time consuming commitment and should
-not be taken lightly.
+### How are maintainers removed?
 
 When a maintainer is unable to perform the required duties they can be removed with
 a vote by 66% of the current maintainers with the chief maintainer having veto power.
