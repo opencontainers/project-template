@@ -68,25 +68,10 @@ two LGTMs. In addition, if a maintainer has created a pull request, they cannot
 count toward the two LGTM rule (to ensure equal amounts of review for every pull
 request, no matter who wrote it).
 
-Overall the maintainer system works because of mutual respect across the
-maintainers of the project.  The maintainers trust one another to make decisions
-in the best interests of the project.  Sometimes maintainers can disagree and
-this is part of a healthy project to represent the point of views of various people.
-In the case where maintainers cannot find agreement on a specific change the
-role of a Chief Maintainer comes into play.
-
-The Chief Maintainer for the project is responsible for overall architecture
-of the project to maintain conceptual integrity.  Large decisions and
-architecture changes should be reviewed by the chief maintainer.
-The current chief maintainer for the project is the first person listed
-in the MAINTAINERS file.
-
-Even though the maintainer system is built on trust, if there is a conflict
-with the chief maintainer on a decision, their decision can be challenged
-and brought to the technical oversight board if two-thirds of the
-maintainers vote for an appeal. It is expected that this would be a
-very exceptional event.
-
+Overall the maintainer system works because of mutual respect.
+The maintainers trust one another to act in the best interests of the project.
+Sometimes maintainers can disagree and this is part of a healthy project to represent the points of view of various people.
+In the case where maintainers cannot find agreement on a specific change, maintainers should use the [governance procedure](GOVERNANCE.md) to attempt to reach a consensus.
 
 ### How are maintainers added?
 
@@ -96,14 +81,8 @@ the long term success of the project.  Contributors wanting to become
 maintainers are expected to be deeply involved in contributing code,
 pull request review, and triage of issues in the project for more than two months.
 
-Just contributing does not make you a maintainer, it is about building trust
-with the current maintainers of the project and being a person that they can
-depend on and trust to make decisions in the best interest of the project.  The
-final vote to add a new maintainer should be approved by over 66% of the current
-maintainers with the chief maintainer having veto power.  In case of a veto,
-conflict resolution rules expressed above apply.  The voting period is
-five business days on the Pull Request to add the new maintainer.
-
+Just contributing does not make you a maintainer, it is about building trust with the current maintainers of the project and being a person that they can depend on to act in the best interest of the project.
+The final vote to add a new maintainer should be approved by the [governance procedure](GOVERNANCE.md).
 
 ### What is expected of maintainers?
 
@@ -113,8 +92,5 @@ expected to be able to respond in a timely manner if their help is required on s
 issues where they are pinged.  Being a maintainer is a time consuming commitment and should
 not be taken lightly.
 
-When a maintainer is unable to perform the required duties they can be removed with
-a vote by 66% of the current maintainers with the chief maintainer having veto power.
-The voting period is ten business days.  Issues related to a maintainer's performance should
-be discussed with them among the other maintainers so that they are not surprised by
-a pull request removing them.
+When a maintainer is unable to perform the [required duties](#what-are-a-maintainers-responsibilities) they can be removed by the [governance procedure](GOVERNANCE.md).
+Issues related to a maintainer's performance should be discussed with them among the other maintainers so that they are not surprised by a pull request removing them.
