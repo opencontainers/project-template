@@ -22,12 +22,11 @@ speak up!
 
 It is every maintainer's responsibility to:
 
-* 1) Expose a clear roadmap for improving their component.
-* 2) Deliver prompt feedback and decisions on pull requests.
-* 3) Be available to anyone with questions, bug reports, criticism etc.
-  on their component. This includes IRC and GitHub issues and pull requests.
-* 4) Make sure their component respects the philosophy, design and
-  roadmap of the project.
+* Expose a clear roadmap for improving their component.
+* Deliver prompt feedback and decisions on pull requests.
+* Be available to anyone with questions, bug reports, criticism etc. on their component.
+  This includes IRC and GitHub issues and pull requests.
+* Make sure their component respects the philosophy, design and roadmap of the project.
 
 ## How are decisions made?
 
