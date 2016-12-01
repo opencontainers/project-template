@@ -29,7 +29,7 @@ However, a motion MAY be adopted with REJECTs, as outlined in the previous parag
 
 A quorum is established when at least two-thirds of maintainers have voted.
 
-For projects that are not specifications, a [motion to release](#release-approval) MAY be adopted if the tally is at least three LGTMs and no REJECTs, even if three votes does not meet the usual two-thirds quorum.
+For projects that are not specifications, a [motion to release](RELEASES.md) MAY be adopted if the tally is at least three LGTMs and no REJECTs, even if three votes does not meet the usual two-thirds quorum.
 
 ## Security issues
 
