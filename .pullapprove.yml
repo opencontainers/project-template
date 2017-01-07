@@ -4,6 +4,10 @@ requirements:
   signed_off_by:
     required: true
 
+always_pending:
+  title_regex: ^WIP
+  explanation: 'Work in progress...'
+
 group_defaults:
   required: 2
   approve_by_comment:
