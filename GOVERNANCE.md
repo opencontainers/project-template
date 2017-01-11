@@ -34,7 +34,7 @@ For projects that are not specifications, a [motion to release](#release-approva
 ## Amendments
 
 The [project governance](#project-governance) rules and procedures MAY be amended or replaced using the procedures themselves.
-The MAINTAINERS of this project governance document is the total set of MAINTAINERS from all Open Containers projects (image-spec, image-tools, runC, runtime-spec, and runtime-tools).
+The MAINTAINERS of this project governance document is the total set of MAINTAINERS from all Open Containers projects (go-digest, image-spec, image-tools, runC, runtime-spec, and runtime-tools).
 
 ## Subject templates
 
