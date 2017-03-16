@@ -40,3 +40,6 @@ groups:
   runtime-tools:
     teams:
       - runtime-tools-maintainers
+  selinux:
+    teams:
+      - selinux-maintainers
