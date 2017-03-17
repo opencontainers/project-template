@@ -12,7 +12,7 @@ A maintainer SHOULD propose a motion on the dev@opencontainers.org mailing list 
 
 ## Voting
 
-Voting on a proposed motion SHOULD happen on the dev@opencontainers.org mailing list (except [security issues](#security-issues)) with maintainers posting LGTM or REJECT.
+Voting on a proposed motion SHOULD happen on the dev@opencontainers.org mailing list (except [security issues](#security-issues)) with maintainers posting LGTM or NACK.
 Maintainers MAY also explicitly not vote by posting ABSTAIN (which is useful to revert a previous vote).
 Maintainers MAY post multiple times (e.g. as they revise their position based on feeback), but only their final post counts in the tally.
 A proposed motion is adopted if two-thirds of votes cast, a quorum having voted, are in favor of the release.
@@ -20,16 +20,16 @@ A proposed motion is adopted if two-thirds of votes cast, a quorum having voted,
 Voting SHOULD remain open for a week to collect feedback from the wider community and allow the maintainers to digest the proposed motion.
 Under exceptional conditions (e.g. non-major security fix releases) proposals which reach quorum with unanimous support MAY be adopted earlier.
 
-A maintainer MAY choose to reply with REJECT.
-A maintainer posting a REJECT MUST include a list of concerns or links to written documentation for those concerns (e.g. GitHub issues or mailing-list threads).
+A maintainer MAY choose to reply with NACK.
+A maintainer posting a NACK MUST include a list of concerns or links to written documentation for those concerns (e.g. GitHub issues or mailing-list threads).
 The maintainers SHOULD try to resolve the concerns and wait for the rejecting maintainer to change their opinion to LGTM.
-However, a motion MAY be adopted with REJECTs, as outlined in the previous paragraphs.
+However, a motion MAY be adopted with NACKs, as outlined in the previous paragraphs.
 
 ## Quorum
 
 A quorum is established when at least two-thirds of maintainers have voted.
 
-For projects that are not specifications, a [motion to release](#release-approval) MAY be adopted if the tally is at least three LGTMs and no REJECTs, even if three votes does not meet the usual two-thirds quorum.
+For projects that are not specifications, a [motion to release](#release-approval) MAY be adopted if the tally is at least three LGTMs and no NACKs, even if three votes does not meet the usual two-thirds quorum.
 
 ## Amendments
 
@@ -53,7 +53,7 @@ For example:
 
 After voting closes, a maintainer SHOULD post a tally to the motion thread with a subject template like:
 
-> [{project} {status}]: {motion description} (+{LGTMs} -{REJECTs} #{ABSTAINs})
+> [{project} {status}]: {motion description} (+{LGTMs} -{NACKs} #{ABSTAINs})
 
 Where `{status}` is either `adopted` or `rejected`.
 For example:
