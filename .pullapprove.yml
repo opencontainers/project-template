@@ -42,4 +42,4 @@ groups:
       - runtime-tools-maintainers
   selinux:
     teams:
-      - selinux-maintainers
+      - go-selinux-maintainers
