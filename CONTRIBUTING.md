@@ -21,7 +21,6 @@ We're trying very hard to keep the project lean and focused. We don't want it
 to do everything for everybody. This means that we might decide against
 incorporating a new feature.
 
-
 ### Conventions
 
 Fork the repo and make changes on your fork in a feature branch.
