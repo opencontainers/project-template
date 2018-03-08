@@ -18,7 +18,7 @@ available to them.
 This is a living document - if you see something out of date or missing,
 speak up!
 
-## What are a maintainer's responsibility?
+## What are a maintainer's responsibilities?
 
 It is every maintainer's responsibility to:
 
