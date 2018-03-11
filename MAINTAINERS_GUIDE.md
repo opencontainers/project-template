@@ -86,13 +86,7 @@ pull request review, and triage of issues in the project for more than two month
 Just contributing does not make you a maintainer, it is about building trust with the current maintainers of the project and being a person that they can depend on to act in the best interest of the project.
 The final vote to add a new maintainer should be approved by the [governance procedure](GOVERNANCE.md).
 
-### What is expected of maintainers?
-
-Part of a healthy project is to have active maintainers to support the community
-in contributions and perform tasks to keep the project running.  Maintainers are
-expected to be able to respond in a timely manner if their help is required on specific
-issues where they are pinged.  Being a maintainer is a time consuming commitment and should
-not be taken lightly.
+### How are maintainers removed?
 
 When a maintainer is unable to perform the [required duties](#what-are-a-maintainers-responsibilities) they can be removed by the [governance procedure](GOVERNANCE.md).
 Issues related to a maintainer's performance should be discussed with them among the other maintainers so that they are not surprised by a pull request removing them.
