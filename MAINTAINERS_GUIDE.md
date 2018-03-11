@@ -30,8 +30,6 @@ It is every maintainer's responsibility to:
 
 ## How are decisions made?
 
-Short answer: with pull requests to the project repository.
-
 This project is an open-source project with an open design philosophy. This
 means that the repository is the source of truth for EVERY aspect of the
 project, including its philosophy, design, roadmap and APIs. *If it's
@@ -43,14 +41,19 @@ repository. An implementation change is a change to the source code. An
 API change is a change to the API specification. A philosophy change is
 a change to the philosophy manifesto. And so on.
 
-All decisions affecting this project, big and small, follow the same 3 steps:
+All decisions affecting this project, big and small, follow the same procedure:
 
-* Step 1: Open a pull request. Anyone can do this.
-
-* Step 2: Discuss the pull request. Anyone can do this.
-
-* Step 3: Accept (`LGTM`) or refuse a pull request. The relevant maintainers do
-this (see below "Who decides what?")
+1. Discuss a proposal on the [mailing list](CONTRIBUTING.md#mailing-list).
+   Anyone can do this.
+2. Open a pull request.
+   Anyone can do this.
+3. Discuss the pull request.
+   Anyone can do this.
+4. Endorse (`LGTM`) or oppose (`Rejected`) the pull request.
+   The relevant maintainers do this (see below [Who decides what?](#who-decides-what)).
+   Changes that affect project management (changing policy, cutting releases, etc.) are [proposed and voted on the mailing list](GOVERNANCE.md).
+5. Merge or close the pull request.
+   The relevant maintainers do this.
 
 ### I'm a maintainer, should I make pull requests too?
 
@@ -83,13 +86,7 @@ pull request review, and triage of issues in the project for more than two month
 Just contributing does not make you a maintainer, it is about building trust with the current maintainers of the project and being a person that they can depend on to act in the best interest of the project.
 The final vote to add a new maintainer should be approved by the [governance procedure](GOVERNANCE.md).
 
-### What is expected of maintainers?
-
-Part of a healthy project is to have active maintainers to support the community
-in contributions and perform tasks to keep the project running.  Maintainers are
-expected to be able to respond in a timely manner if their help is required on specific
-issues where they are pinged.  Being a maintainer is a time consuming commitment and should
-not be taken lightly.
+### How are maintainers removed?
 
 When a maintainer is unable to perform the [required duties](#what-are-a-maintainers-responsibilities) they can be removed by the [governance procedure](GOVERNANCE.md).
 Issues related to a maintainer's performance should be discussed with them among the other maintainers so that they are not surprised by a pull request removing them.
