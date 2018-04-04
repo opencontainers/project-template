@@ -23,6 +23,9 @@ group_defaults:
       - master
 
 groups:
+  distribution-spec:
+    teams:
+      - distribution-spec-maintainers
   image-spec:
     teams:
       - image-spec-maintainers
