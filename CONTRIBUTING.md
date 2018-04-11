@@ -1,13 +1,19 @@
 # Contribution Guidelines
 
-Development happens on GitHub.
-Issues are used for bugs and actionable items and longer discussions can happen on the [mailing list](#mailing-list).
+## Security issues
 
-The content of this repository is licensed under the [Apache License, Version 2.0](LICENSE).
+If you are reporting a security issue, *do not* create an issue or file a pull request on GitHub.
+Instead, disclose the issue responsibly by sending an email to [security@opencontainers.org](mailto:security@opencontainers.org) (which is inhabited only by the maintainers of the various OCI projects).
 
 ## Code of Conduct
 
 Participation in the Open Container community is governed by [Open Container Code of Conduct][code-of-conduct].
+
+## Discussion
+
+Development happens on GitHub.
+Issues are used for non-security bugs and actionable items; longer discussions can happen on the [mailing list](#mailing-list).
+Responsible disclosure for security issues is discussed [above](#security-issues).
 
 ## Meetings
 
@@ -20,25 +26,24 @@ Minutes from past meetings are archived [here][minutes].
 ## Mailing list
 
 You can subscribe and browse the mailing list on [Google Groups][mailing-list].
+Responsible disclosure for security issues is discussed [above](#security-issues).
 
 ## IRC
 
-OCI discussion happens on #opencontainers on [Freenode][] ([logs][irc-logs]).
+Non-security OCI discussion happens on #opencontainers on [Freenode][] ([logs][irc-logs]).
+Responsible disclosure for security issues is discussed [above](#security-issues).
 
 ## Git
 
-### Security issues
-
-If you are reporting a security issue, do not create an issue or file a pull
-request on GitHub. Instead, disclose the issue responsibly by sending an email
-to security@opencontainers.org (which is inhabited only by the maintainers of
-the various OCI projects).
+The content of this repository is licensed under the [Apache License, Version 2.0](LICENSE).
 
 ### Pull requests are always welcome
 
-We are always thrilled to receive pull requests, and do our best to
-process them as fast as possible. Not sure if that typo is worth a pull
-request? Do it! We will appreciate it.
+We are always thrilled to receive pull requests for non-security changes, and do our best to process them as fast as possible.
+Not sure if that typo is worth a pull request?
+Do it!
+We will appreciate it.
+Responsible disclosure for security issues is discussed [above](#security-issues).
 
 If your pull request is not accepted on the first try, don't be
 discouraged! If there's a problem with the implementation, hopefully you
@@ -51,8 +56,9 @@ incorporating a new feature.
 ### Conventions
 
 Fork the repo and make changes on your fork in a feature branch.
-For larger bugs and enhancements, consider filing a leader issue or mailing-list thread for discussion that is independent of the implementation.
+For larger non-security bugs and enhancements, consider filing a leader issue or mailing-list thread for discussion that is independent of the implementation.
 Small changes or changes that have been discussed on the [project mailing list](#mailing-list) may be submitted without a leader issue.
+Responsible disclosure for security issues is discussed [above](#security-issues).
 
 If the project has a test suite, submit unit tests for your changes. Take a
 look at existing tests for inspiration. Run the full test suite on your branch
