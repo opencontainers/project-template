@@ -25,7 +25,7 @@ It is every maintainer's responsibility to:
 * Expose a clear roadmap for improving their component.
 * Deliver prompt feedback and decisions on pull requests.
 * Be available to anyone with questions, bug reports, criticism etc. on their component.
-  This includes IRC and GitHub issues and pull requests.
+    This includes IRC and GitHub issues and pull requests.
 * Make sure their component respects the philosophy, design and roadmap of the project.
 
 ## How are decisions made?
@@ -44,16 +44,16 @@ a change to the philosophy manifesto. And so on.
 All decisions affecting this project, big and small, follow the same procedure:
 
 1. Discuss a proposal on the [mailing list](CONTRIBUTING.md#mailing-list).
-   Anyone can do this.
+    Anyone can do this.
 2. Open a pull request.
-   Anyone can do this.
+    Anyone can do this.
 3. Discuss the pull request.
-   Anyone can do this.
+    Anyone can do this.
 4. Endorse (`LGTM`) or oppose (`Rejected`) the pull request.
-   The relevant maintainers do this (see below [Who decides what?](#who-decides-what)).
-   Changes that affect project management (changing policy, cutting releases, etc.) are [proposed and voted on the mailing list](GOVERNANCE.md).
+    The relevant maintainers do this (see below [Who decides what?](#who-decides-what)).
+    Changes that affect project management (changing policy, cutting releases, etc.) are [proposed and voted on the mailing list](GOVERNANCE.md).
 5. Merge or close the pull request.
-   The relevant maintainers do this.
+    The relevant maintainers do this.
 
 ### I'm a maintainer, should I make pull requests too?
 
