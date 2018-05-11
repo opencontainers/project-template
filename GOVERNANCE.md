@@ -8,11 +8,11 @@ This section describes generic rules and procedures for fulfilling that mandate.
 
 ## Proposing a motion
 
-A maintainer SHOULD propose a motion on the dev@opencontainers.org mailing list (except [security issues](#security-issues)) with another maintainer as a co-sponsor.
+A maintainer SHOULD propose a motion on the dev@opencontainers.org mailing list (except [security issues](CONTRIBUTING.md#security-issues)) with another maintainer as a co-sponsor.
 
 ## Voting
 
-Voting on a proposed motion SHOULD happen on the dev@opencontainers.org mailing list (except [security issues](#security-issues)) with maintainers posting LGTM or REJECT.
+Voting on a proposed motion SHOULD happen on the dev@opencontainers.org mailing list (except [security issues](CONTRIBUTING.md#security-issues)) with maintainers posting LGTM or REJECT.
 Maintainers MAY also explicitly not vote by posting ABSTAIN (which is useful to revert a previous vote).
 Maintainers MAY post multiple times (e.g. as they revise their position based on feedback), but only their final post counts in the tally.
 A proposed motion is adopted if two-thirds of votes cast, a quorum having voted, are in favor of the release.
