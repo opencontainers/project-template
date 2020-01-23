@@ -8,7 +8,7 @@ This section describes generic rules and procedures for fulfilling that mandate.
 
 ## Proposing a motion
 
-A maintainer SHOULD propose a motion on the dev@opencontainers.org mailing list (except [security issues](#security-issues)) with another maintainer as a co-sponsor.
+A maintainer SHOULD propose a motion on the dev@opencontainers.org mailing list (except [security issues](#security-issues)).
 
 ## Voting
 
