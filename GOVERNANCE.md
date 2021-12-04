@@ -6,13 +6,21 @@ The [OCI charter][charter] §5.b.viii tasks an OCI Project's maintainers (listed
 
 This section describes generic rules and procedures for fulfilling that mandate.
 
+## Motion locations
+
+Motions involving security issues SHOULD be proposed and voted on as described [here](CONTRIBUTING.md#security-issues).
+For motions which do not involve security issues:
+
+* Projects which include specifications SHOULD propose motions and collect votes on the [`dev@opencontainers.org`][dev-list] mailing list.
+* Projects which do not include specifications SHOULD propose motions and collect votes on either the [`dev@opencontainers.org`][dev-list] mailing list or on a pull-request in the project repository.
+
 ## Proposing a motion
 
-A maintainer SHOULD propose a motion on the dev@opencontainers.org mailing list (except [security issues](#security-issues)) with another maintainer as a co-sponsor.
+A maintainer SHOULD propose a motion [in the proper location](#motion-locations) with another maintainer as a co-sponsor.
 
 ## Voting
 
-Voting on a proposed motion SHOULD happen on the dev@opencontainers.org mailing list (except [security issues](#security-issues)) with maintainers posting LGTM or REJECT.
+Voting on a proposed motion SHOULD happen [in the proper location](#motion-locations) with maintainers posting LGTM or REJECT.
 Maintainers MAY also explicitly not vote by posting ABSTAIN (which is useful to revert a previous vote).
 Maintainers MAY post multiple times (e.g. as they revise their position based on feedback), but only their final post counts in the tally.
 A proposed motion is adopted if two-thirds of votes cast, a quorum having voted, are in favor of the release.
@@ -61,3 +69,4 @@ For example:
 > [runtime-spec adopted]: Tag 0647920 as 1.0.0-rc (+6 -0 #3)
 
 [charter]: https://www.opencontainers.org/about/governance
+[dev-list]: https://groups.google.com/a/opencontainers.org/forum/#!forum/dev
